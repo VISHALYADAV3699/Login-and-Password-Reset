@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #dce3f7, #e0e8fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+/* .form-wrapper {
+  position: relative;
+  height: 100%;
+  padding: 30px;
+}
+
+.form-box {
+  position: absolute;
+  width: 100%;
+  backface-visibility: hidden;
+} */
+
+h1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #333;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px 45px 12px 15px;
+  background: #eee;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.input-box i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #888;
+}
+
+.btn {
+  width: 100%;
+  background: #7484ec;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.forgot-link {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.forgot-link a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #333;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.social-icons i {
+  font-size: 20px;
+  color: #333;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #7484ec;
+  transform: scale(1.1);
+}
+
+.hidden {
+  display: none;
+}
